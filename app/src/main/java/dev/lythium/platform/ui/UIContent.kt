@@ -20,24 +20,6 @@ fun SavedJourneysScreen() {
             .wrapContentSize(Alignment.Center)
     ) {
         Text(
-            text = "Home View",
-            fontWeight = FontWeight.Bold,
-            color = Color.White,
-            modifier = Modifier.align(Alignment.CenterHorizontally),
-            textAlign = TextAlign.Center,
-            fontSize = 25.sp
-        )
-    }
-}
-
-@Composable
-fun SearchScreen() {
-    Column(
-        modifier = Modifier
-            .fillMaxSize()
-            .wrapContentSize(Alignment.Center)
-    ) {
-        Text(
             text = "Search View",
             fontWeight = FontWeight.Bold,
             color = Color.White,

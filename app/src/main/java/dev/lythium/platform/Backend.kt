@@ -58,7 +58,7 @@ object Backend {
             val client = HttpClient(Android)
 
             val response: HttpResponse =
-                client.get("https://platform-backend.lythium.dev/departure/$fromCRS/to/$toCRS?timeOffset=119&timeWindow=120")
+                client.get("https://platform-backend.lythium.dev/departure/$fromCRS/to/$toCRS?timeOffset=-119&timeWindow=120")
             if (response.status.value !in 200 .. 299) {
                 return@runBlocking null
             }
